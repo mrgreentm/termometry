@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius to Fahrenheit</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form-container">
+            <label class="label" for="celsius">Temperatura em graus Celsius</label>
+            <input name="celsius" type="number" id="celsius">
+            <label class="label" for="fahrenheit">Temperatura em graus Fahrenheit</label>
+            <input value="FAHRENHEIT" name="fahrenheit" id="temp" disabled>
+            <input type="button" onclick="converter(), verifyTemp()" value="CONVERTER">
+        </form>
+    </div>
+    <div class="comentary">
+        <p id="comentary"></p>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

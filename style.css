@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+input {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container {
+    width: 50%;
+    margin: 10% auto auto auto;
+    background-color: blue;
+    height: 30%;
+    border-radius: 20px;
+}
+
+.form-container {
+    background-color: rgb(140, 140, 248);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.label {
+    font-size: 2rem;
+    color: cornsilk;
+    text-align: center;
+}
+
+.comentary {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.comentary>p {
+    color: crimson;
+    font-size: 5rem;
+}
