@@ -11,6 +11,6 @@ function verifyTemp() {
         var comentary = document.getElementById('comentary')
         comentary.innerHTML = 'eita calor da mizera'
     } else {
-        comentary.innerHTML = ''
+        comentary.textContent = ''
     }
 }
